@@ -21,7 +21,8 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'cucumber', '~> 2.4'
 
-  spec.add_development_dependency 'bundler', '~> 1.14'
+  spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake', '~> 12.0'
   spec.add_development_dependency 'rubocop', '~> 0.47.1'
+  spec.add_development_dependency 'rspec-expectations', '~> 3.5'
 end

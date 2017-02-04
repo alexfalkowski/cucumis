@@ -1,5 +1,6 @@
-require "cucumis/version"
+require 'cucumber'
+
+require 'cucumis/version'
 
 module Cucumis
-  # Your code goes here...
 end

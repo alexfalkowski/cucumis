@@ -1,0 +1,27 @@
+AllCops:
+  TargetRubyVersion: 2.4
+  DisplayCopNames: true
+  Exclude:
+    - bin/**/*
+    - features/**/*
+
+Style/DotPosition:
+  EnforcedStyle: trailing
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/CommandLiteral:
+  EnforcedStyle: mixed
+
+Style/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Style/SpaceInsideHashLiteralBraces:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120

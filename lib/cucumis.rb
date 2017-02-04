@@ -1,4 +1,5 @@
 require 'cucumber'
+require 'selenium-webdriver'
 
 require 'cucumis/active_record'
 require 'cucumis/table'

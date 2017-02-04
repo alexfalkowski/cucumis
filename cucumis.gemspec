@@ -21,6 +21,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'cucumber', '~> 2.4'
   spec.add_dependency 'cucumber-timecop', '~> 0.0.5'
+  spec.add_dependency 'capybara', '~> 2.12'
   spec.add_dependency 'selenium-webdriver', '~> 3.0'
   spec.add_dependency 'chromedriver-helper', '~> 1.0'
 

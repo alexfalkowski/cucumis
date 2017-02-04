@@ -1,4 +1,5 @@
 require 'cucumber'
+require 'capybara'
 require 'selenium-webdriver'
 require 'cucumber/timecop'
 

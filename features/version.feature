@@ -1,5 +1,3 @@
-@javascript
-
 Feature: Scenario
  In order to not forget to have the latest version
  As programmer

@@ -1,7 +1,6 @@
 require 'cucumber'
 require 'capybara'
 require 'selenium-webdriver'
-require 'cucumber/timecop'
 
 require 'cucumis/active_record'
 require 'cucumis/table'

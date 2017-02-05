@@ -8,4 +8,4 @@ Feature: Scenario
 
  Scenario: Check the version
   When my aplication has loaded
-  Then the version should be "0.3.0"
+  Then the version should be "0.4.0"

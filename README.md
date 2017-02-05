@@ -7,7 +7,7 @@ Some handy tasty collection of cucumber gems and steps.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'cucumis'
+gem 'cucumis', require: false
 ```
 
 And then execute:
@@ -19,6 +19,8 @@ Or install it yourself as:
     $ gem install cucumis
 
 ## Usage
+
+In your support folder.
 
 ```ruby
 require 'cucumis'

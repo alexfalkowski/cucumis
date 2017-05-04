@@ -28,7 +28,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'poltergeist', '~> 1.13'
 
   spec.add_development_dependency 'bundler'
-  spec.add_development_dependency 'rake', '~> 12.0'
-  spec.add_development_dependency 'rubocop', '~> 0.47.1'
-  spec.add_development_dependency 'rspec-expectations', '~> 3.5'
+  spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'rubocop'
 end

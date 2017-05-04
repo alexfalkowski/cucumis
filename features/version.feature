@@ -1,4 +1,4 @@
-Feature: Scenario
+Feature: Version verifier
  In order to not forget to have the latest version
  As programmer
  I want to update the latest version
@@ -6,4 +6,4 @@ Feature: Scenario
 
  Scenario: Check the version
   When my aplication has loaded
-  Then the version should be "0.6.0"
+  Then the version should be "0.7.0"

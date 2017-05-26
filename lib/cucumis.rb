@@ -8,6 +8,7 @@ require 'cucumis/active_record'
 require 'cucumis/table'
 require 'cucumis/debug'
 require 'cucumis/page'
+require 'cucumis/capybara'
 require 'cucumis/version'
 
 module Cucumis

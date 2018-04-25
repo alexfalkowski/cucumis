@@ -17,6 +17,7 @@ jobs:
             - cucumis-gem-cache-
       - run: gem install bundler
       - run: bundle check --path vendor/bundle || bundle install --path vendor/bundle
+      - run: bundle clean
       - save_cache:
           key: cucumis-gem-cache-{{ checksum "Gemfile.lock" }}
           paths:

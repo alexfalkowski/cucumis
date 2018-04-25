@@ -4,6 +4,7 @@ AllCops:
   Exclude:
     - bin/**/*
     - features/**/*
+    - vendor/**/*
 
 Layout/DotPosition:
   EnforcedStyle: trailing

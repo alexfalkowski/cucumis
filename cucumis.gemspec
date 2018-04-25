@@ -19,13 +19,13 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'cucumber', '~> 2.4'
-  spec.add_dependency 'selenium-webdriver', '~> 3.0'
-  spec.add_dependency 'chromedriver-helper', '~> 1.0'
-  spec.add_dependency 'rspec-expectations', '~> 3.5'
-  spec.add_dependency 'cucumber-timecop', '~> 0.0.5'
-  spec.add_dependency 'capybara-webkit', '~> 1.14'
-  spec.add_dependency 'poltergeist', '~> 1.13'
+  spec.add_dependency 'cucumber', '>= 2.0'
+  spec.add_dependency 'selenium-webdriver', '>= 3.0'
+  spec.add_dependency 'chromedriver-helper', '>= 1.0'
+  spec.add_dependency 'rspec-expectations', '>= 3.0'
+  spec.add_dependency 'cucumber-timecop', '>= 0.0.6'
+  spec.add_dependency 'capybara-webkit', '>= 1.15.0'
+  spec.add_dependency 'poltergeist', '>= 1.17.0'
 
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake'

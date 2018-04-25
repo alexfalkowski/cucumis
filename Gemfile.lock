@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cucumis (0.9.0)
+    cucumis (1.0.0)
       capybara-webkit (>= 1.15.0)
       chromedriver-helper (>= 1.0)
       cucumber (>= 2.0)

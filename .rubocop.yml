@@ -1,9 +1,10 @@
 AllCops:
-  TargetRubyVersion: 2.4
+  TargetRubyVersion: 2.5
   DisplayCopNames: true
   Exclude:
     - bin/**/*
     - features/**/*
+    - vendor/**/*
 
 Layout/DotPosition:
   EnforcedStyle: trailing

@@ -61,7 +61,7 @@ GEM
     ffi (1.9.23)
     gherkin (5.0.0)
     io-like (0.3.0)
-    json (2.1.0)
+    json (2.3.1)
     mini_mime (1.0.0)
     mini_portile2 (2.3.0)
     multi_json (1.13.1)
